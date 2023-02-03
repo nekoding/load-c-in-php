@@ -8,5 +8,5 @@ $libs = FFI::cdef(
 echo $libs->sum_val(1, 2) . PHP_EOL;
 echo $libs->sub_val(2, 1) . PHP_EOL;
 
-var_dump($libs->addr('sum_val'));
+var_dump($libs);
 ?>
